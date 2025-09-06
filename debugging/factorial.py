@@ -9,5 +9,6 @@ def factorial(n):
         n -= 1
     return result
 
-f = factorial(int(sys.argv[1]))
-print(f)
+if __name__ == "__main__":
+    f = factorial(int(sys.argv[1]))
+    print(f)
